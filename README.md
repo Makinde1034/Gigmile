@@ -1,8 +1,8 @@
-### Qshop-eccommerce
+### Gigmile dashboard
 
-> E-commerce website. 
+ 
 
-Live demo : [https://qshopp.vercel.app/](https://qshopp.vercel.app/)
+Live demo : [https://gigmile.vercel.app/)
 
 ## Technologies used
 - NextJs
