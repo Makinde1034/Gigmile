@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Image from 'next/image'
 import dynamic from 'next/dynamic'
 import graph from '../assets/images/green_graph.svg'
@@ -7,7 +7,7 @@ import pep from '../assets/images/pep.svg'
 const Chart = dynamic(() => import('react-apexcharts'), { ssr: false })
 
 function WorkingCapital() {
-  const [data, setData] = useState({
+  const data = ({
     
     options: {
       colors: ['#1DB385'],

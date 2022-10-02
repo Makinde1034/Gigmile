@@ -4,8 +4,8 @@ const Chart = dynamic(() => import('react-apexcharts'), { ssr: false })
 import { ApexOptions } from 'apexcharts'
 
 function ServiceRequest() {
-  const [series, setSeries] = useState([44, 55, 41, 17])
-  const [options, setOptions] = useState<ApexOptions>({
+  const series = [44, 55, 41, 17]
+  const options = ({
     labels: ['Repair', 'Fuel ', 'Salary '],
     plotOptions: {
       pie: {

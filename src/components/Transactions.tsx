@@ -78,6 +78,7 @@ function Transactions() {
           <ul className="flex h-full ">
             {tabs.map((item, index) => (
               <li
+              key={index}
                 onClick={() => setActiveTab(index)}
                 className={`${
                   activeTab === index && 'border-[#1DB385] border-b-2  text-[#000000]'
@@ -110,7 +111,7 @@ function Transactions() {
               </thead>
               <tbody>
                 {captainInfo.map((item, index) => (
-                  <tr className="border-b rw border-[#D9DADE] cursor-pointer">
+                  <tr key={index} className="border-b rw border-[#D9DADE] cursor-pointer">
                     <td className="px-5 py-5 bg-white text-sm">
                       <div className="flex">
                         <div className="flex-shrink-0 w-10 h-10">

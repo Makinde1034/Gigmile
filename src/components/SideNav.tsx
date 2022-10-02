@@ -90,6 +90,7 @@ function SideNav() {
         <ul className="mt-5 pr-2 h-[500px] overflow-y-scroll">
           {sideNavLinks.map((item, index) => (
             <li
+            key={index}
               className={`${
                 index === 4 ? 'bg-[#F95D44] hover:bg-[#F95D44] py-2' : 'hover:bg-greyish'
               } flex items-center lg:pl-5 pl-2  cursor-pointer rounded-lg py-3`}

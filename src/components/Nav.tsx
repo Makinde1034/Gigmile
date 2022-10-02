@@ -5,7 +5,7 @@ import check from '../assets/images/check.svg'
 import bell from '../assets/images/Bell_pin.svg'
 import userImage from '../assets/images/user.svg'
 import arrow from '../assets/images/arrow.svg'
-import logo from '../assets/images/logo.svg'
+
 
 function Nav() {
   return (

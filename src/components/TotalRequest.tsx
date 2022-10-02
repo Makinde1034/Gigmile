@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import dynamic from 'next/dynamic'
+
 import graph from '../assets/images/red_graph.svg'
 import polygon from '../assets/images/polygon.svg'
 
