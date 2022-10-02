@@ -161,14 +161,14 @@ function Transactions() {
       </div>
       <div className="flex justify-center mt-5 pb-10">
         <span className="mr-5 px-3 py-2 cursor-pointer">
-          <Image src={arrowLeft} />
+          <Image height={20} src={arrowLeft} />
         </span>
         <span className="mr-5 bg-[#F1F3F6] px-3 py-2 rounded-sm font-semibold cursor-pointer">1</span>
         <span className="mr-5 px-3 py-2 font-semibold cursor-pointer">2</span>
         <span className="mr-5 px-3 py-2 font-semibold">...</span>
         <span className="mr-5 px-3 py-2 font-semibold cursor-pointer">16</span>
         <span className="mr-5 px-3 py-2 cursor-pointer">
-          <Image src={arrowRight} />
+          <Image height={20} src={arrowRight} />
         </span>
       </div>
     </div>
