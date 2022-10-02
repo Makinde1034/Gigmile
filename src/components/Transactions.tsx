@@ -124,18 +124,18 @@ function Transactions() {
                           </div>
                         </div>
                         <div className="ml-3">
-                          <p className="text-gray-900 font-bold whitespace-no-wrap">{item.captain}</p>
+                          <p className="text-gray-900 font-bold  whitespace-no-wrap">{item.captain}</p>
                         </div>
                       </div>
                     </td>
                     <td className="px-5 py-5 bg-white text-sm">
-                      <p className="text-gray-900 font-semibold whitespace-no-wrap">{item.workingCapital}</p>
+                      <p className="text-gray-900 font-normal lg:font-semibold whitespace-no-wrap">{item.workingCapital}</p>
                     </td>
                     <td className="px-5 py-5  bg-white text-sm">
-                      <p className="text-gray-900 font-semibold  whitespace-no-wrap"> ₦{item.totalBalance}</p>
+                      <p className="text-gray-900 font-normal lg:font-semibold  whitespace-no-wrap"> ₦{item.totalBalance}</p>
                     </td>
                     <td className="px-5 py-5  bg-white text-sm">
-                      <span className="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
+                      <span className="relative inline-block px-3 py-1 font-normal lg:font-semibold text-green-900 leading-tight">
                         <span aria-hidden className="absolute inset-0 bg-green-200 opacity-50 rounded-full"></span>
                         <span className="relative"> ₦{item.totalRequest}</span>
                       </span>

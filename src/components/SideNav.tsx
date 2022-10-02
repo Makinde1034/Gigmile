@@ -87,7 +87,7 @@ function SideNav() {
             <p className="text-sm">Administrator</p>
           </div>
         </div>
-        <ul className="mt-5 pr-2 h-[500px] overflow-y-scroll">
+        <ul className="mt-5 pb-5 pr-2 h-[500px] overflow-y-scroll">
           {sideNavLinks.map((item, index) => (
             <li
             key={index}
