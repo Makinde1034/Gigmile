@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import dynamic from 'next/dynamic'
 const Chart = dynamic(() => import('react-apexcharts'), { ssr: false })
-import { ApexOptions } from 'apexcharts'
+
 
 function ServiceRequest() {
   const series = [44, 55, 41, 17]
