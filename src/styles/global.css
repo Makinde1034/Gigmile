@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+svg {
+  color: #474f54;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(177, 175, 175);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.cs {
+  background-color: #1db38610;
+}
+
+.ts {
+  background-color: #e25c5c27;
+}
+
+.apexcharts-bar {
+  cursor: pointer;
+}
+
+.rob{
+  font-family: 'Roboto', sans-serif;
+}
+
+.rw:hover .menu{
+  display: block;
+}
+
+.menu{
+  display: none;
+}
